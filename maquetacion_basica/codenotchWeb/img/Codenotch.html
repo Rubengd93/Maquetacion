@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- saved from url=(0078)http://127.0.0.1:5500/Retos_flex/maquetacion_basica/codenotchWeb/contacto.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codenotch</title>
+    
+
+<link rel="stylesheet" href="./Codenotch_files/style.css"></head>
+<body cz-shortcut-listen="true">
+
+    <header>
+
+        <div class="logonav">
+            <img src="./Codenotch_files/logo cabecera.png" alt="">
+        </div>
+        <nav>
+            <a href="http://127.0.0.1:5500/Retos_flex/maquetacion_basica/codenotchWeb/home.html">Codenotch</a>
+            <a href="http://127.0.0.1:5500/Retos_flex/maquetacion_basica/codenotchWeb/docentes.html">Equipo</a>
+            <a href="http://127.0.0.1:5500/Retos_flex/maquetacion_basica/codenotchWeb/cursos.html">Cursos</a>
+            <a class="contactbutton" href="http://127.0.0.1:5500/Retos_flex/maquetacion_basica/codenotchWeb/contacto.html">Contacto</a>
+        </nav>
+
+    </header>
+
+    <section class="contactform">
+
+        <div class="boxtitleform">
+             <h5>
+                 ¿Estás interesado <span class="encontratar">en contratar</span> a nuestros <span class="top">Top Notch Coders</span>?
+             </h5>
+             <p class="pcontact">
+                 Déjanos tus datos y uno de nuestros asesores se pondrá en contacto 
+                 contigo para informarte. Sin spam, sin compromiso.
+             </p>
+
+            <div class="formbox"> 
+                <form action="http://127.0.0.1:5500/Retos_flex/maquetacion_basica/codenotchWeb/contacto.html" method="">
+                    <p>
+                        <span class="titleimput">Empresa -&gt;</span>
+                        <input type="text" name="empresa" placeholder="Nombre Empresa">
+                    </p>
+
+                    <p>
+                        <span class="titleimput">Persona de contacto -&gt;</span>
+                        <input type="text" name="nombre" placeholder="Nombre Interesado">
+                        <input type="text" name="apellido" placeholder="Apellidos">
+                    </p>
+                    <p>
+                        <span class="titleimput">Teléfono de contacto -&gt;</span>
+                        <input type="text" name="telefono" placeholder="Teléfono Movil">
+                    </p>
+                    <p>
+                        <span class="titleimput">Email donde quiere recibir información -&gt;</span>
+                        <input type="email" name="Email" placeholder="Email personal">
+                    </p>
+                    <p>
+                        <input type="checkbox" name="verificacion" id=""><span class="checkbox">Acepta recibir comunicaciones de nuevos talentos</span> 
+                    </p>
+                    
+                    <button type="submit">ENVIAR</button>
+                </form>
+            </div>   
+
+        </div>
+
+        <div>
+            <img src="./Codenotch_files/Group-9@2x-400x741.png" alt="">
+        </div>
+
+
+
+
+    </section>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

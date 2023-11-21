@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400&display=swap');
+
+/* Colors: negro 000000, azul 0000ff, verde 11f294 */
+
+
+/* PAGINA DE CONTACTO */
+
+
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header{
+   width: 100vw;
+   height: 60px;
+   margin-top: 0px;
+   display: flex;
+   justify-content:space-between; 
+   align-items: center;
+   background-color: black;
+}
+
+.logonav{
+    margin-left: 50px;
+}
+
+nav{
+    margin-right: 100px;
+}
+
+a{
+    text-decoration:none;
+    color: white;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 200;
+}
+a:hover{
+    color: rgb(83, 83, 253);
+    font-weight: 600;
+    text-decoration: overline blue;
+}
+
+.contactform{
+    height: 793;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boxtitleform{
+    width: 700px;
+    height: 700px;
+    /* margin-top: 10px; */
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+h5{
+    font-size: 50px;
+    margin-left: 30px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+}
+
+.encontratar{
+    color: #11f294;
+    
+}
+
+.top{
+    color: #11f294;
+}
+
+.pcontact{
+    margin-left: 30px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.formbox{
+    margin-left: 30px;
+}
+
+.titleimput{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.checkbox{
+    font-weight: 400;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+

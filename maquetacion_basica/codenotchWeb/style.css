@@ -1,0 +1,769 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400&display=swap');
+
+/* Colors: negro 000000, azul 0000ff, verde 11f294 */
+
+
+/* PAGINA DE CONTACTO */
+
+
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header{
+   width: 100vw;
+   height: 60px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   display: flex;
+   justify-content:space-between; 
+   align-items: center;
+   background-color: black;
+}
+
+.logonav{
+    margin-left: 50px;
+}
+
+nav{
+    margin-right: 100px;
+}
+
+a{
+    text-decoration:none;
+    color: white;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 200;
+}
+a:hover{
+    color: blue;
+    font-weight: 600;
+    /* text-decoration: overline white; */
+}
+
+.contactbutton{
+    font-weight: 800;
+    width: 200px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.contactform{
+    height: 850px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(./img/programador.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.boxtitleform{
+    width: 600px;
+    height: 600px;
+    margin-top: -100px;
+    background-color: rgba(0, 0, 0, 0.882);
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h5{
+    font-size: 40px;
+    margin-left: 30px;
+    /* margin-right: 70px; */
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.encontratar{
+    color: #11f294;
+    
+}
+
+.top{
+    color: #11f294;
+}
+
+.pcontact{
+    margin-left: 30px;
+    margin-right: 15px;
+    /* margin-bottom: 10px; */
+    font-weight: 600;
+}
+
+.titleimput{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.checkbox{
+    font-weight: 400;
+    font-size: 13px;
+}
+
+button{
+    margin-top: 15px;
+    width: 530px;
+    height: 30px;
+    color: black;
+    font-weight: 800;
+    background-color:  #00ff95;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color:  #3feaa3;
+    color: white;
+    
+}
+
+.imgform{
+    width: 500px;
+    height: 600px;
+    margin-top: 0px;
+    /* border: 1px solid black; */
+}
+
+.imgform2{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* PÁGINA CURSOS */
+
+.headercursos{
+    width: auto;
+    height: 300px;
+    margin-top: -0px;
+    background-image: url(/Retos_flex/maquetacion_basica/codenotchWeb/img/cabeceracursos.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.h2cursos{
+    color: white;
+    font-weight: 600;
+    font-size: 55px;
+    margin-bottom: 0px;
+}
+
+.bootcamph2{
+    color:  #3feaa3;
+}
+
+.pcursos{
+    width: 800px;
+    color: white;
+    margin-bottom: 60px;
+    
+}
+
+.cursos{
+    width: auto;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.curso1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 70px;
+}
+
+.fulltime{
+    width: 420px;
+    height: 220px;
+    /* border: 1px solid white; */
+    margin-top: -20px;
+    
+}
+
+.imgfulltime{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.h3cursos{
+    font-size: 28px;
+    color: #3feaa3 ;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.subtitlefulltime{
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+hr{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.descriptioncurso{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+.iconcursos{
+    width: 15px ;
+    height: 15px;
+    margin-right: 6px;
+    opacity:90%;
+}
+
+.buttoncurso{
+    margin-top: 15px;
+    width: 420px;
+    height: 30px;
+    color: black;
+    font-weight: 800;
+    background-color:  #00ff95;
+    border-radius: 5px;
+}
+
+
+.buttoncurso:hover{
+    background-color:  #3feaa3;
+    color: white;
+}
+
+/* PAGINA DE DOCENTES */
+
+.headerdocentes{
+    width: auto;
+    height: 300px;
+    margin-top: -0px;
+    background-image: url(/Retos_flex/maquetacion_basica/codenotchWeb/img/header\ docentes.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.h2docentes{
+    color: white;
+    font-weight: 600;
+    font-size: 55px;
+    margin-bottom: 0px;
+    /* margin-top: 0px; */
+}
+
+.pdocentes{
+    width: 800px;
+    color: white;
+    margin-bottom: 60px;
+}
+
+
+.profesoresfullstack{
+    width: auto;
+    height: 1000px;
+    margin-left: 100px ;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center ;
+}
+
+
+.fotodocente{
+    width: 70%;
+    height: 70%;
+    margin-top: 0px;
+}
+
+.h2equipodocente{
+    font-size: 38px;
+    width: 100vw;
+    height: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+.infoprofesor{
+    text-align: center;
+}
+
+.nameprofesor{
+    font-size: 28px;
+    color: black;
+    font-weight: 600;
+    /* text-align: center; */
+}
+
+.pdescripcionprof{
+    width: 400px;
+    font-size: 12px;
+
+}
+
+.parallaxdocentes{
+    width: auto;
+    height: 400px;
+    margin-top: -0px;
+    background-image: url(/Retos_flex/maquetacion_basica/codenotchWeb/img/equipo.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+}
+
+.h2docentes2{
+    color: white;
+    font-weight: 600;
+    font-size: 55px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.profesoresdata{
+    width: auto;
+    height: 500px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center ;
+}
+
+.docente1data{
+    width: 250px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1data{
+    width: 80%;
+    margin-left: 25px;
+}
+
+.datosprofdata{
+    text-align: center;
+}
+
+.pdocentedata{
+    font-size: 12px;
+}
+
+.docente1full{
+    width: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.datosproffull{
+    text-align: center;
+}
+
+.pdocentefull{
+    font-size: 12px;
+}
+
+/* HOME */
+
+.section1home{
+    width: auto;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(/Retos_flex/maquetacion_basica/codenotchWeb/img/BANNERHOME\ copia.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.titlehome{
+    width: 600px;
+    height: 500px;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 1px 6px 10px black;
+    margin-bottom: 0px;
+    
+
+}
+
+.pbehindh1{
+    font-size: 28px;
+    font-weight: 600;
+    color:#3feaa3 ;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.pedith1{
+    color: white;
+}
+
+.formhome{
+    width: 350px;
+    height: 500px;
+    /* border: 1px solid white; */
+    border-radius: 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 400px;
+    text-shadow: 1px 6px 10px black;
+    
+}
+
+.formhome:hover{
+    box-shadow:0px 10px 30px #00ff9578 ;
+}
+
+
+.pformhome{
+    color: white;
+    font-weight: 600;
+}
+
+.buttonlanding{
+    margin-top: 5px;
+    width: 280px;
+    height: 30px;
+    color: black;
+    font-weight: 800;
+    background-color:#00ff95;
+    border-radius: 5px;
+    margin-top: 30px;
+    border: 0px;
+    margin-bottom: 10px;
+}
+
+.buttonlanding:hover{
+
+    color: rgba(0, 0, 0, 0.671);
+    font-weight: 800;
+    background-color:#00ff958f;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.pbehindbutton{
+    color: white;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.titleform{
+    color:#00ff95 ;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.pformhome{
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.inputlanding{
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.inputlanding:hover{
+    background-color: rgb(225, 225, 225);
+}
+
+.selectcurso{
+    width: 250px;
+    height: 30px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 0px; */
+}
+
+.sectionempresas{
+    width: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+
+.h3section2{
+    font-size: 28px;
+    font-weight: 600;
+    color: white ;
+    margin-top: 120px;
+}
+
+.tasaempleo{
+    width: auto;
+    height: 250px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 0px 200px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.spantasa{
+    font-size: 60px;
+}
+
+.ptasa{
+    font-size: 28px ;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.landingcursos{
+    padding-top: 0px;
+    margin-top: 0px;
+    width: auto;
+    height: 900px;
+    background-color:white ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0px 20px;    
+}
+
+.divhomecursos{
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.h2homecursos{
+    font-size: 38px;
+    margin-top: 0px;
+}
+
+.cursodeshome{
+    width: 500px;
+    height: 400px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+.pretitlecurso{
+    color: #00ff95;
+    margin-top: 0px;
+}
+
+.titlecursoshome{
+    font-size: 38px;
+    margin-bottom: 25px;
+
+}
+
+.buttoncursodes{
+   width: 200px;
+   background-color: #00ff95;
+   color: black;
+   font-weight: 800;
+   border-radius: 10px;
+}
+
+.reseñas{
+    background-color: rgb(220, 219, 219);
+    width: auto;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0px 40px;
+}
+
+.preseñas{
+    width: 600px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.418);
+    border-radius: 20px;
+    padding: 50px;
+    font-size: 18px;
+    
+}
+
+.editpreseña{
+    font-weight: 600;
+}
+
+.imgreseñas{
+    width: 500px;
+    height: 500px;
+
+}
+
+.imgres{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer{
+    width: auto;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+i{
+ 
+    color: rgb(73, 73, 73);
+}
+
+i:hover{
+    color: #00ff95;
+}
+
+.imgfooter{
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
