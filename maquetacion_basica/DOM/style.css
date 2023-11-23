@@ -1,0 +1,186 @@
+body{
+ padding: 0px;
+ margin: 0px;
+ font-family:sans-serif;
+}
+
+header{
+    background-color: #002c52ec;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logoheader{
+    width: 150%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+}
+
+.contactbuttom{
+    color: orange;
+    font-weight: 600;
+}
+
+.banner{
+    width: 100vw;
+    height: 650px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(./img/HB.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.title{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px ;
+    padding-top: 30px ;
+}
+
+h1{
+    font-size: 65px;
+    color: white;
+    text-shadow: black 1px 6px 8px;
+    margin-bottom: 10px;
+
+}
+
+p{
+    width: 800px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.form{
+    width: 1000px;
+    height: 140px;
+    background-color: #e3e3e3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 40px;
+    padding: 20px;
+
+}
+
+h3{
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color:  #002c52;
+}
+
+
+input{
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 0px;
+}
+
+.buttonform{
+    margin-top: 25px;
+}
+
+.inf{
+    background-color: orange;
+    box-shadow: black 0px 1px 3px;
+    width: 180px;
+    height: 30px;
+    margin-right: 5px;
+    font-weight: 800;
+    border-radius: 7px;
+}
+
+.inf:hover{
+    background-color:#002c52 ;
+    color: orange;
+}
+
+.filt{
+    background-color: #002c52;
+    box-shadow: black 0px 1px 3px;
+    width: 100px;
+    height: 30px;
+    margin-right: 5px;
+    font-weight: 800;
+    color: white;
+    border-radius: 7px;
+}
+
+.filt:hover{
+    background-color:orange;
+    color: #002c52;
+}
+
+
+.offers{
+    width: 100vw;
+    height: 600px;
+    background-color: #002c52;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.cajaofertas{
+    display: flex;
+    gap: 0px 20px;
+}
+
+.divoffers{
+    width: 350px;
+    height: 320px;
+    background-color: #e3e3e3;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+}
+
+.containerimg{
+    width: auto ;
+    height: 200px;
+}
+
+.imgoffers{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+h2{
+    color: white;
+    font-size: 38px;
+}
+
+.textoffers{
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
