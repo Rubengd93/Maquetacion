@@ -35,16 +35,16 @@
             <h3>Encuentra la mejor oferta</h3>
             <form action="">
 
-                <input type="text" name="Nombre" placeholder="Nombre">
-                <input type="text" name="Origen"  placeholder="Origen">
-                <input type="text" name="Destino"  placeholder="Destino">
-                <input type="number" name="Nº de personas"  placeholder="Nº Personas">
-                <input type="date" name="Fecha de ida" id="" >
-                <input type="date" name="Fecha de vuelta" id="">
+                <input id="name" type="text" name="Nombre" placeholder="Nombre">
+                <input id="origin" type="text" name="Origen"  placeholder="Origen">
+                <input id="destination" type="text" name="Destino"  placeholder="Destino">
+                <input id="numperson" type="number" name="Nº de personas"  placeholder="Nº Personas">
+                <input id="datedeparture" type="date" name="Fecha de ida">
+                <input id="returndate" type="date" name="Fecha de vuelta">
                 <br>
                 <div class="buttonform">
-                    <input class="inf" type="button" value="Solicitar Información">
-                    <input class="filt" type="button" value="Filtrar">
+                    <input id="sendtrip" class="inf pointer" type="button" onclick="recorderTrip()" value="Solicitar Información">
+                    <input class="filt pointer" type="button" onclick="filterIsland()" value="Filtrar">
                 </div>
 
             </form>
@@ -52,9 +52,12 @@
 
     </section>
 
-       
 
     <section class="offers">
+
+        <div id="result">
+
+        </div>
 
         <h2>Ofertas de Última Hora</h2>
 
@@ -84,7 +87,7 @@
                     <button type="submit">Comprar</button>
                 </div>
             </div>
-
+            <span></span>
             <div class="divoffers">
                 <div class="containerimg">
                     <img class="imgoffers" src="./img/BCN.jpg" alt="">
@@ -98,6 +101,8 @@
                 </div>
             </div>
         </div>
+
+
 
 
     </section>
@@ -118,7 +123,7 @@
 
 
 
-
-    <script src="https://kit.fontawesome.com/c882247b7c.js" crossorigin="anonymous"></script>    
+    <script src="viajes.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/c882247b7c.js" crossorigin="anonymous"></script>     -->
 </body>
 </html>
