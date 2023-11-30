@@ -50,38 +50,22 @@ function filterIsland() {
     
 
     const printObject = document.getElementById("result");
+    printObject.style.padding = "20px";
 
     comparation.forEach(print => {
 
         printObject.innerHTML += `
-        <p>Nombre: ${print.nombre}</p>
-        <p>Origen: ${print.origen}</p>
-        <p>Destino: ${print.destino}</p>
-        <p>NºPers: ${print.numeroPersonas}</p>
-        <p>Ida: ${print.fechaIda}</p>
-        <p>Vuelta: ${print.fechaVuelta}</p>
+        <div>Nombre: ${print.nombre} <br>
+        Origen: ${print.origen}<br>
+        Destino: ${print.destino}<br>
+        NºPers: ${print.numeroPersonas}<br>
+        Ida: ${print.fechaIda}<br>
+        Vuelta: ${print.fechaVuelta}<br>
+        </div>
         `;
 
     });
 
-}
-
-
-
-function filtrarDestinos() {
-  
-  
-    const destinosPermitidos = ['canarias', 'mallorca', 'galicia'];
-    
-      const destinosFiltrados = informacionSolicitada.filter(solicitud => {
-        const destinoMinuscula = solicitud.destino.toLowerCase();
-        return destinosPermitidos.includes(destinoMinuscula);
-      });
-    
-      const resultadosDiv = document.getElementById('result');
-    
-     
-    
 }
 
 
