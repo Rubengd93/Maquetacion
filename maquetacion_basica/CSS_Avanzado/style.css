@@ -1,0 +1,12 @@
+div{
+    z-index:unset ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* max-width:500px; */
+    width: max(100%,600px);
+    height: 300px;
+    background-color: antiquewhite;
+    padding: 60px;
+}

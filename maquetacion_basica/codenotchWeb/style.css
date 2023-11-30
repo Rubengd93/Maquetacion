@@ -9,6 +9,7 @@
 body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
+    background-color: black;
 }
 
 
@@ -20,7 +21,9 @@ header{
    display: flex;
    justify-content:space-between; 
    align-items: center;
-   background-color: black;
+   background-color: transparent;
+   z-index: 111;
+   position: fixed;
 }
 
 .logonav{
@@ -413,9 +416,10 @@ hr{
 
 /* HOME */
 
+
 .section1home{
     width: auto;
-    height: 800px;
+    height: 860px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -424,8 +428,13 @@ hr{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
+    position: relative;
+    bottom: 60px;
+    border: 1px solid red;
 
 }
+
 
 .titlehome{
     width: 600px;
