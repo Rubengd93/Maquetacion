@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+:root{
+    --buttonhovercolor:#1877F2;
+    --buttoncolor:#4CB5F9;
+    --fontsizeform:16px;
+    --fontsizeformmobile:12px;
+    --fontcolorinput:#1c1e21;
+    --fontsizebotton:14px;
+    --fontsizeor:13px;
+    --colorsizeor:#737373;
+    --fontsizelogface: 14px;
+    --colorlogface: #385185;
+    --fontsizeforgotps:12px;
+    --colorforgotps: #00376b;
+    --colordontaccount:#000000;
+    --fontsizedontaccount:14px;
+    --fontsizegetapp: 14px;
+    --colorgetapp:#000000;
+    --fontsizefooter:12px;
+    --colorfontfooter: #737373;
+}
+
+
+
+.signinsta{
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 50px; */
+}
+
+.bodyform{
+    width: 100vw;
+    height: calc(100vh - 200);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movil{
+    display: none;
+}
+
+.columform{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxform{
+    width: 100vw;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 175px;
+    height: 51px;
+    padding-bottom:90px;
+}
+
+form{
+    width: ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px 0;
+}
+
+input{
+    width: 260px;
+    height: 38px;
+    padding-left: 5px;
+    font-size: var(--fontsizeformmobile);
+    color: var(--fontcolorinput);
+    border: 1px solid rgb(215, 215, 215);
+    background-color: #fafafa;
+    border-radius: 3px;
+    outline: none;    
+}
+
+button{
+    width: 260px;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+    font-weight: 600;
+    font-size: var(--fontsizebotton);
+    color: white;
+    background-color: var(--buttoncolor);
+    margin-top: 10px;
+    transition: all 1s linear;
+    cursor: pointer;
+    
+    
+}
+
+button:hover{
+    background-color: var(--buttonhovercolor);
+}
+
+.or{
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    
+}
+
+.textor{
+    font-size: var(--fontsizeor);
+    font-weight: 600;
+    color: var(--colorsizeor);
+    padding: 0 20px;
+}
+
+.hr{
+    width: 100px;
+}
+
+hr{
+    border-color: rgba(248, 248, 248, 0.661);
+}
+
+.loginfacebook{
+    /* border: 1px solid black; */
+    width: 260px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0px 20px 0px;
+ }
+
+.loginfacebook1{
+   text-decoration: none;
+   font-size: var(--fontsizelogface);
+   color: var(--colorlogface);
+   font-weight: 600;
+}
+
+.iface{
+    padding-right: 7px;
+}
+
+.forgotpass{
+    width: 260px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.linkforgot{
+    font-size: var(--fontsizeforgotps);
+    color: var(--colorforgotps);
+    text-decoration: none;
+}
+
+.report{
+    width: 1auto;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 10px; */
+}
+
+.preport{
+    width: 340px;
+    text-align: center;
+    font-size: var(--fontsizeforgotps);
+    color: var(--colorfontfooter);
+}
+
+.areport{
+    text-decoration: none;
+    font-size: var(--fontsizeforgotps);
+}
+
+.boxsignup{
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 30px; */
+}
+
+.psignup{
+    width: 340px;
+    text-align: center;
+    font-size: var(--fontsizedontaccount);
+    color: var(--colordontaccount);
+}
+
+.asignup{
+    text-decoration: none;
+    margin-left: 5px;
+    color: var(--buttonhovercolor);
+    font-weight: 600;
+}
+
+.app{
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxtitleapp{
+    width: 340px;
+    height:  50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleapp{
+    font-size: var(--fontsizegetapp);
+    color: var(--colorgetapp);
+}
+
+.imgapp{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 10px;
+}
+
+.google{
+    width: 130px;
+}
+
+.microsoft{
+    width: 110px;
+}
+
+footer{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.boxfooter{
+    max-width: 700px;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 15px;
+
+}
+
+.linkfooter{
+    text-decoration: none;
+    font-size: var(--fontsizefooter);
+    color: var(--colorfontfooter);
+}
+
+
+@media screen and (min-width:450px) {
+    
+    .boxform{
+        border: 1px solid rgb(217, 217, 217);
+        width: 330px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8px;
+    }
+
+    .logo{
+        width: 260px;
+        height: 90px;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        padding-bottom:30px;
+        margin-top: 30px;
+    }
+
+    .boxsignup{
+        width: 330px;
+        height: 55px;
+        border: 1px solid rgb(217, 217, 217);
+
+    }
+
+    .boxfooter{
+        min-width: 400px;
+        height: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px 15px;
+    
+    }
+
+
+
+} 
+
+@media screen and (min-width:875px) {
+    
+    .bodyform{
+        /* width: 100vw; */
+        height:calc(100vh - 70px) ;
+        display: flex;
+        flex-direction: none;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .movil{
+        display: initial;
+        width: 400px;
+        height: 600px;
+
+    }
+
+    .photomovil{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+
+
+    .columform{
+        width: 360px;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer{
+        width: 100vw;
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
