@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 400px 150px 400px ;
+    grid-template-rows: 200px 200px;
+}
+
+.a{
+    background-color: greenyellow; 
+    text-align: center;
+ }
+
+ .b{
+    background-color: orange; 
+    text-align: center;
+ }
+ .c{
+    background-color: orangered; 
+    text-align: center;
+ }
+ .d{
+    background-color: red; 
+    text-align: center;
+ }
+ .e{
+    background-color: blue; 
+    text-align: center;
+ }
+
+.f{
+   background-color: yellow; 
+   text-align: center;
+}
